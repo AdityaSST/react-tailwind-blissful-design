@@ -6,12 +6,19 @@ import { ArrowRight } from "lucide-react";
 const Hero: React.FC = () => {
   return (
     <div className="relative overflow-hidden">
-      {/* Background image with overlay */}
+      {/* Background image */}
       <div 
         className="absolute inset-0 bg-cover bg-center z-0" 
         style={{ 
-          backgroundImage: "url('https://images.unsplash.com/photo-1472396961693-142e6e269027?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80')",
-          filter: "brightness(0.6)"
+          backgroundImage: "url('https://images.unsplash.com/photo-1472396961693-142e6e269027?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80')"
+        }}
+      ></div>
+      
+      {/* Custom overlay with the specific gradient */}
+      <div 
+        className="absolute inset-0 z-0" 
+        style={{ 
+          background: "linear-gradient(to bottom, rgba(21,68,114,0) 0%, rgba(21,68,114,0.5672) 56.72%, rgba(21,68,114,0.99) 99%)"
         }}
       ></div>
       
