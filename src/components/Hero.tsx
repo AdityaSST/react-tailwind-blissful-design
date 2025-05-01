@@ -14,11 +14,11 @@ const Hero: React.FC = () => {
         }}
       ></div>
       
-      {/* Custom overlay with the specific gradient */}
+      {/* Custom overlay with the specific gradient - changed from "to bottom" to "to right" */}
       <div 
         className="absolute inset-0 z-0" 
         style={{ 
-          background: "linear-gradient(to bottom, rgba(21,68,114,0) 0%, rgba(21,68,114,0.5672) 56.72%, rgba(21,68,114,0.99) 99%)"
+          background: "linear-gradient(to right, rgba(21,68,114,0) 0%, rgba(21,68,114,0.5672) 56.72%, rgba(21,68,114,0.99) 99%)"
         }}
       ></div>
       
