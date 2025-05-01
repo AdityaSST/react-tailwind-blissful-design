@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const Navbar: React.FC = () => {
   return (
-    <nav className="flex items-center justify-between py-4 px-6 md:px-12 w-full">
+    <nav className="flex items-center justify-between py-4 px-6 md:px-12 w-full bg-transparent">
       <div className="flex items-center">
         <Link to="/" className="text-white">
           <img src="/lovable-uploads/348d96b6-2c97-4ade-9ac4-62e09f9dad3c.png" alt="Insurance Logo" className="h-10" />

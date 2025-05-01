@@ -12,7 +12,7 @@ import Footer from '@/components/Footer';
 const Index = () => {
   return (
     <div className="min-h-screen flex flex-col">
-      <header className="bg-blue-900">
+      <header className="absolute top-0 left-0 right-0 z-10">
         <Navbar />
       </header>
       
